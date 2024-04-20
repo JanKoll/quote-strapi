@@ -1,7 +1,7 @@
 {
   "name": "quote-strapi",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -9,25 +9,26 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "^4.23.1",
-    "@strapi/plugin-users-permissions": "^4.23.1",
-    "@strapi/strapi": "^4.23.1",
-    "better-sqlite3": "^9.5.0",
+    "@strapi/strapi": "4.23.1",
+    "@strapi/plugin-users-permissions": "4.23.1",
+    "@strapi/plugin-i18n": "4.23.1",
+    "@strapi/plugin-cloud": "4.23.1",
     "mysql": "2.18.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^5.3.4",
-    "styled-components": "^5.3.11"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "author": {
-    "name": "Yannic Brügger, Jan Koll"
+    "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a558dc50-b762-4076-9cbf-3d06db4f080e"
+    "uuid": "1f1cd401-d379-4847-ad14-fba03f280e69"
   },
   "engines": {
-    "node": ">=16.0.0 <=20.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

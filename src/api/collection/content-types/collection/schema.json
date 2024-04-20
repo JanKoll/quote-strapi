@@ -42,12 +42,12 @@
     "Theme": {
       "type": "enumeration",
       "enum": [
-        "pink",
-        "purple",
-        "orange",
-        "green",
-        "teal",
-        "blue"
+        "pink-gradiant",
+        "purple-gradiant",
+        "orange-gradiant",
+        "green-gradiant",
+        "teal-gradiant",
+        "blue-gradiant"
       ]
     }
   }

@@ -39,15 +39,15 @@
       "target": "plugin::users-permissions.user",
       "mappedBy": "follows"
     },
-    "Theme": {
+    "theme": {
       "type": "enumeration",
       "enum": [
-        "pink-gradiant",
-        "purple-gradiant",
-        "orange-gradiant",
-        "green-gradiant",
-        "teal-gradiant",
-        "blue-gradiant"
+        "pink-gradient",
+        "purple-gradient",
+        "orange-gradient",
+        "green-gradient",
+        "teal-gradient",
+        "blue-gradient"
       ]
     }
   }

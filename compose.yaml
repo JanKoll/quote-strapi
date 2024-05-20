@@ -2,7 +2,7 @@ services:
   server:
     build:
       context: .
-    dockerfile: $DOCKERFILE
+      dockerfile: $DOCKERFILE
     environment:
       NODE_ENV: production
     network_mode: "host" # to connect to local DB

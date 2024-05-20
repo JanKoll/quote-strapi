@@ -1,0 +1,11 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: $DOCKERFILE
+    environment:
+      NODE_ENV: $NODE_ENV
+    network_mode: "host" # to connect to local DB
+    restart: always
+    ports:
+      - $PORT:$PORT
